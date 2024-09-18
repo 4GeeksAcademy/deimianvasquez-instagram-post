@@ -1,79 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aprendiendo HTML</title>
-    </head>
-    <body>
 
-        <nav>
-            <ul>
-                <li>Inicio</li>
-                <li>Nosotros</li>
-                <li>Contacto</li>
-            </ul>
-        </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        
-        <div style="background-color: aqua;">
-            <h1>Deimia</h1>
-            <h3>Morrone</h3>
-            <h6>Sagredo</h6>
-        </div>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap" rel="stylesheet">
 
-        <span>HOla</span>
-        <br/>
-        <span>HOla</span>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/b3e4c928fa.js" crossorigin="anonymous"></script>
 
-        <p>Otro texto</p>
+    <!-- <link rel="stylesheet" href="deimian.css"> -->
+    <link rel="stylesheet" href="./styles.css" />
 
-        <p> 
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit iste possimus et animi doloremque assumenda eligendi rem, blanditiis sequi ipsa ut, labore magnam laudantium, delectus numquam modi libero soluta facere.
+    <!-- 
+    No se recomienda, solo en caso de una emergencia
+    <style>
+        body {
+            background-color: aqua;
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style> -->
+
+    <title>Aprendiendo HTML</title>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li>Inicio <i class="fab fa-instagram"></i></li>
+            <li>Nosotros</li>
+            <li>Contacto</li>
+            <li>
+                <a href="./flexbox.html">Flexbox</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    <div style="background-color: aqua;">
+        <h1>Deimia</h1>
+        <h3 id="title-h3">Morrone</h3>
+        <h6>Sagredo</h6>
+    </div>
+
+    <span>HOla</span>
+    <br />
+    <span>HOla</span>
+
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga, eaque.
         </p>
+    </div>
 
-        <img src="https://picsum.photos/300/300" alt="Imagen randon de lorem picsum" />
+    <p>Otro texto</p>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit iste possimus et animi doloremque assumenda
+        eligendi rem, blanditiis sequi ipsa ut, labore magnam laudantium, delectus numquam modi libero soluta facere.
+    </p>
+
+    <h1 class="title-h1-main">Esta imagen es cool</h1>
+
+    <img src="https://picsum.photos/300/300" alt="Imagen randon de lorem picsum" />
+
+    <input type="password">
+
+    <h1 class="title-h1-main" style="color: red;">Hola soy otro titulo</h1>
+
+    <a href="https://google.com" class="google">ir Google</a>
 
 
-        <table>
-            <thead>
-              <tr>
+    <table>
+        <thead>
+            <tr>
                 <th>Header content 1</th>
                 <th>Header content 2</th>
-              </tr>
-            </thead>
-            <tfoot>
-              <tr>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
                 <td>Footer content 1</td>
                 <td>Footer content 2</td>
-              </tr>
-            </tfoot>
-            <tbody>
-              <tr>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
                 <td>Body content 1</td>
                 <td>Body content 2</td>
-              </tr>
-            </tbody>
-          </table>
+            </tr>
+        </tbody>
+    </table>
 
 
-        <!-- Lista ordenada -->
-         <ol>
-            <li>Deimian</li>
-            <li>Cristopher</li>
-            <li>Yesenia</li>
-         </ol>
+    <!-- Lista ordenada -->
+    <ol>
+        <li>Deimian</li>
+        <li>Cristopher</li>
+        <li>Yesenia</li>
+    </ol>
 
 
-        <!-- Lista desordenada -->
-        <ul>
-            <li>Deimian</li>
-            <li>Cristopher</li>
-            <li>Yesenia</li>
-        </ul>
+    <!-- Lista desordenada -->
+    <ul>
+        <li>Deimian</li>
+        <li>Cristopher</li>
+        <li>Yesenia</li>
+    </ul>
 
+</body>
 
-       
-
-    </body>
 </html>
